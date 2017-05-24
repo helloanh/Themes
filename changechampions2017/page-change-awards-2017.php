@@ -100,6 +100,33 @@ get_header(); ?>
 		section.sota-recognitions p {
 		    margin: 2px 26px 0 26px;
 		}
+		
+		.honoree-2017-container {
+		  padding-top: 20px;
+		  background: #f5f7f6;
+		}
+
+		.honoree-2017-container p {
+			margin: 10px; */
+			text-align: center;
+			color: #555;
+			font-size: 20px;
+		}
+
+		.honoree-2017-container h3 {
+		  font-family: 'BodegaSansMedium', 'bebas_neueregular', sans-serif;
+		  font-size: 1.85em;
+		  text-align: center; 
+		  line-height: 1.55em;
+		  color: #f4a216;
+		}
+
+		.honoree-2017-container img.img-honoree-2017 {
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+
 
 		section.page.honorees .honoree-group h1 {
 		    margin: -5px 0 -2px;
@@ -178,6 +205,7 @@ get_header(); ?>
 		            <li><a href="#photos" class="page">Photos</a></li>
 		            <li><a href="#spirit-of-the-awards" class="page">Spirit of the Awards</a></li> -->
 					<li><a href="#spirit-of-the-awards" class="page">Spirit of the Awards </a></li>
+				        <li><a href="#this-years-honorees" class="page">This Year's Honorees </a></li>
 					<li><a href="#previous-year-honorees" class="page">Previous Years Honorees</a></li>
 					<li><a href="#nominate-a-champion" class="page"> Nominate a Champion </a></li>
 					<li><a href="#sponsor" class="page"> Sponsorship Us  </a></li>
@@ -208,6 +236,31 @@ get_header(); ?>
 		    	</ul>
 		    </section> 
 		</section>
+
+                <!-- This Year's Honorees -->
+		<section class="page honorees" id="this-years-honorees">
+			<h1 class="special-header"> This Year's Honorees </h1>
+			<div class="container honoree-2017-container">
+				<div class="row">
+					<div class="col-lg-4 col-xs-12">
+						<a href="https://www.plannedparenthood.org/about-us/our-leadership/cecile-richards"><img class="img-honoree-2017" src="https://www.communitychange.org/wp-content/uploads/2017/05/cecil-richards-205.jpg"></a>
+						<h3> Cecile Richards </h3>
+						<p> President, and the Young Leaders of Planned Parenthood</p>
+					</div><!-- col-lg-4 col-xs-12 -->
+					<div class="col-lg-4 col-xs-12">
+						<a href="https://www.afge.org/about-us/afge-national-leadership/national-officers-executive-bios/j.-david-cox-sr/"><img class="img-honoree-2017" src="https://www.communitychange.org/wp-content/uploads/2017/05/david-cox-205.jpg"></a>
+						<h3> Jeffrey David Cox, Jr.  </h3>
+						<p> President, American Federation of Government Employees</p>
+					</div><!-- col-lg-4 col-xs-12 -->
+					<div class="col-lg-4 col-xs-12">
+						<a href="http://stproject.org/lio_directory/michelle-tremillo/"><img class="img-honoree-2017" src="https://www.communitychange.org/wp-content/uploads/2017/05/michelle-tremillo-205.jpg"></a>
+						<h3> Michelle Tremillo </h3>
+						<p> The Leaders of the Texas Organizing Project and Executive Director</p>
+					</div><!-- col-lg-8 col-xs-12 -->
+				</div><!--row end -->
+			</div><!-- container honoree-2017-container end -->
+		</section>
+		<!-- END This Year's Honorees -->
 		<!-- Previous Year Honorees -->
 	    <section class="page honorees" id="previous-year-honorees">
 	    	<a class="anchor" id="honorees"></a>
